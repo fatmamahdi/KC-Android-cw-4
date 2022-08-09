@@ -1,0 +1,23 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(totalGrade(11,7));
+temperature(num3);
+int num3=30;
+	}
+	public static int totalGrade(int num1, int num2){
+  
+ int total =num1+num2;
+ return total;
+
+}
+public static void temperature(int num3){
+  
+if(num3>=23){
+System.out.println("Hot");
+}
+else(num3<23){
+    System.out.println("Cold");
+}
+}
+}
