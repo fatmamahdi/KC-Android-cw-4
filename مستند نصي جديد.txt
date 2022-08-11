@@ -16,7 +16,7 @@ public static void temperature(int num3){
 if(num3>=23){
 System.out.println("Hot");
 }
-else(num3<23){
+if else(num3<23){
     System.out.println("Cold");
 }
 }
