@@ -2,8 +2,8 @@ public class Main
 {
 	public static void main(String[] args) {
 		System.out.println(totalGrade(11,7));
+	int num3=30;
 temperature(num3);
-int num3=30;
 	}
 	public static int totalGrade(int num1, int num2){
   
@@ -16,7 +16,7 @@ public static void temperature(int num3){
 if(num3>=23){
 System.out.println("Hot");
 }
-if else(num3<23){
+else if(num3<23){
     System.out.println("Cold");
 }
 }
